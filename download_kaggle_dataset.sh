@@ -24,6 +24,7 @@ unzip *.zip -d work/.
 rm *.zip && mv .kaggle/kaggle.json work/Automating_kaggle_dataset_download/ && rmdir .kaggle 
 pip uninstall kaggle && cd work 
 
-
+#remove repo file
+rm -r Automating_kaggle_dataset_download
 
 
