@@ -7,7 +7,7 @@ cd ..
 # set up kaggle api
 pip install kaggle
 mkdir .kaggle
-mv work/Automating_workflow/kaggle.json .kaggle
+mv work/Automating_kaggle_dataset_download/kaggle.json .kaggle
 
 
 # input the dataset api
@@ -21,7 +21,7 @@ unzip *.zip -d work/.
 
 
 #clean program
-rm *.zip && mv .kaggle/kaggle.json work/Automating_workflow/ && rmdir .kaggle 
+rm *.zip && mv .kaggle/kaggle.json work/Automating_kaggle_dataset_download/ && rmdir .kaggle 
 pip uninstall kaggle && cd work 
 
 
