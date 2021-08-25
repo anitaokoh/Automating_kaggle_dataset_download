@@ -11,7 +11,7 @@ mv work/Automating_workflow/kaggle.json .kaggle
 
 
 # input the dataset api
-echo "Enter kaggle dataset API:"
+echo "Enter the kaggle dataset API:"
 read dataset_api
 $dataset_api 
 
@@ -22,7 +22,7 @@ unzip *.zip -d work/.
 
 #clean program
 rm *.zip && mv .kaggle/kaggle.json work/Automating_workflow/ && rmdir .kaggle 
-pip uninstall kaggle && cd work
+pip uninstall kaggle && cd work 
 
 
 
