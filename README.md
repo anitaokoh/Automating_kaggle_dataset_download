@@ -12,4 +12,4 @@ This `.sh` script helps to
 
 **Please note that this structure is created solely for deepnote workspace. However, it is easy to modify to your use case**
 
-Here is an article on how to create a script to download kaggle dataset to deepnote
+[Here](https://towardsdatascience.com/downloading-kaggle-dataset-to-deepnote-edc938df1b0) is an article on how to create a script to download kaggle dataset to deepnote
